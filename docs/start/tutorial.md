@@ -392,7 +392,7 @@ export const loader = async () => {
   return json({ contacts });
 };
 
-export default function Root() {
+export default function App() {
   const { contacts } = useLoaderData();
 
   return (
